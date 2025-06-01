@@ -250,7 +250,7 @@ elseif(GLM_ENABLE_SIMD_NEON)
 	message(STATUS "GLM: ARM NEON instruction set")
 endif()
 
-add_subdirectory(lib/glm)
+add_subdirectory(include/glm)
 
 if (GLM_BUILD_TESTS)
 	include(CTest)
